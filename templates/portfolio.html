@@ -1,95 +1,97 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>   
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Menu Superior</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <style>
-            body {
-                margin: 0;
-                font-family: 'Roboto', sans-serif;
-            }
-            .navbar-wrapper {
+<html lang="pt-br">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Superior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffffff;
+        }
+        .navbar-wrapper {
             background-color: #f0f0f0;
-            height: 1.5cm; /
+            height: 1.5cm;
             overflow-x: auto;
-            }
-            .navbar {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                background-color: #f0f0f0;
-                padding: 10px 20px;
-            }
-            .navbar ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                display: flex;
-            }
-            .navbar li {
-                margin: 0 10px;
-            }
-            .navbar a {
-                color: #000;
-                text-decoration: none;
-                padding: 8px 16px;
-                display: block;
-                font-weight: bold;
-            }
-            .navbar .menu-left {
-                display: flex;
-            }
-            .navbar .menu-right {
-                margin-left: auto;
-            }
-            .content {
-                padding: 20px;
-                margin-top: 7cm;
-                text-align: left;
-                margin-bottom: 3cm;
-            }
-            .content h1 {
-                font-size: 36px;
-                font-weight: bold;
-            }
-            .content p {
-                font-size: 18px;
-            }
-            .highlighted {
-                background-color: #FF8562;
-                border-radius: 5px;
-                padding: 5px;
-                font-size: 16px;
-                font-weight: bold;
-                color: #FFFFFF;
-            }
-            .home-link {
-                background-color: #6c5ce7; /* Cor roxa */
-                border-radius: 5px;
-                padding: 15px;
-                font-size: 16px;
-                font-weight: bold;
-                color: #FFFFFF;
-                text-decoration: none;
-            }
-            .home-link-blue {
-                background-color: #3498db; /* Cor azul */
-                border-radius: 5px;
-                padding: 15px;
-                font-size: 16px;
-                font-weight: bold;
-                color: #FFFFFF;
-                text-decoration: none;            
-            }
-            .left-half {
-                width: 50%;
-                float: left;
-            }
-        </style>
-    </head>
-    <body>
+            margin-bottom: 2cm;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar li {
+            margin: 0 10px;
+        }
+        .navbar a {
+            color: #000;
+            text-decoration: none;
+            padding: 8px 16px;
+            display: block;
+            font-weight: bold;
+        }
+        .navbar .menu-left {
+            display: flex;
+        }
+        .navbar .menu-right {
+            margin-left: auto;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+        }
+        .content h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .content p {
+            font-size: 18px;
+        }
+        .highlighted {
+            background-color: #FF8562;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .home-link {
+            background-color: #6c5ce7; 
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .home-link-blue {
+            background-color: #3498db; 
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-decoration: none;            
+        }
+        .left-half {
+            width: 50%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-wrapper">
         <nav class="navbar">
             <ul class="menu-left">
                 <li><a href="#">Home</a></li>
@@ -105,138 +107,16 @@
                 </li>
             </ul>
         </nav>
-        <div class="content">
-            <h1>Ana Carolina Andrade</h1>
-            <div class="left-half">
-                <p>Olá! Sou <strong>jornalista</strong> e produtora de conteúdo para <strong>mídias digitais</strong>. Já trabalhei na Câmara Municipal de São Paulo, na Prefeitura Municipal de São Paulo, com jornalismo sindical, na cobertura de direitos das mulheres e no BandNews TV. Hoje sou freelancer.</p>
-            </div>
-        </div>           
-        <div class="buttons">
-            <a href="#" class="home-link">Quem sou eu</a>
-            <a href="#" class="home-link-blue">Fale comigo</a>
+    </div>
+    <div class="content">
+        <h1>Ana Carolina Andrade</h1>
+        <div class="left-half">
+            <p>Olá! Sou <strong>jornalista</strong> e produtora de conteúdo para <strong>mídias digitais</strong>. Já trabalhei na Câmara Municipal de São Paulo, na Prefeitura Municipal de São Paulo, com jornalismo sindical, na cobertura de direitos das mulheres e no BandNews TV. Hoje sou freelancer.</p>
         </div>
-    </body>
-    </html>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            line-height: 1.6;
-            margin-left: 10cm;
-            margin-right: 10cm;
-            background-color: #f0f0f0; 
-            color: #000000; 
-        }
-        h1 {
-            text-align: center;
-            color: #000000; 
-        }
-        p {
-            margin-bottom: 1em;
-        }
-        .highlighted {
-            color: #FF8562; 
-            font-weight: bold;
-        }
-        .bold {
-            font-weight: bold;
-        }
-        a {
-            color: #0066cc; 
-            text-decoration: none;
-        }
-        a:hover {
-            color: #0044aa; 
-            text-decoration: underline;
-        }
-        .link-highlighted {
-            color: #9519E8;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <h1>Sobre mim</h1>
-    <p>Sou <span class="highlighted">jornalista</span> e produzo conteúdo para mídias digitais.</p>
-    <p>Possuo graduação em <span class="bold">jornalismo</span> pela <span class="bold">PUC-SP</span>, <span class="bold">pós-graduação</span> em Gestão da Comunicação em <span class="bold">Mídias Digitais</span> pelo <span class="bold">Senac SP</span>, especialização em <span class="bold">Gênero e Sexualidade</span> pela <span class="bold">UERJ</span> e atualmente curso um <span class="bold">Master em Jornalismo de Dados, Automação e Data Storytelling</span> no <span class="bold">Insper</span>.</p>
-    <p>Tenho experiência com <span class="highlighted">produção de reportagens</span> e criação de conteúdo para <span class="highlighted">redes sociais</span>.</p>
-    <p>Já trabalhei na <span class="bold">Câmara Municipal de São Paulo</span>, na <span class="bold">Prefeitura Municipal de São Paulo</span>, com <span class="bold">jornalismo sindical</span>, na cobertura de <span class="bold">direitos das mulheres</span> e no <span class="bold">BandNews TV</span>. Hoje sou freelancer.</p>
-    <p>Quer saber mais? <a href="https://drive.google.com/file/d/1I9E8cZq3eLOtQl6jl9aZnhs5R2pVCvs8/view" target="_blank">Veja meu <span class="link-highlighted">currículo</span> completo <span class="link-highlighted">aqui</span>.</a></p>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reportagens</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            line-height: 1.6;
-            margin: 0 10%;
-            background-color: #f0f0f0;
-            color: #000000;
-        }
-        h1 {
-            text-align: center;
-            color: #000000;
-        }
-        swiper-container {
-            width: 100%;
-            height: 100%;
-        }
-        swiper-slide {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            background: #fff;
-            border: 1px solid #ddd;
-        }
-        swiper-slide a {
-            text-decoration: none;
-            color: #000000;
-            margin-top: 10px;
-        }
-        swiper-slide img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>Reportagens</h1>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <swiper-container>
-        <swiper-slide>
-            <img src="https://github.com/carol00andrade/portfoliosite/blob/main/static/1.jpg" alt="Caixa quadrada roxa, com texto título em letra branca dizendo, Da maré verde ao tsunami: Mulheres do PSOL marcam presença no 8M argentino, publicado em 12 de março de 2024, por Mulheres do PSOL">
-            <a href="https://mulheresdopsol.org.br/2024/03/12/da-mare-verde-ao-tsunami-mulheres-do-psol-marcam-presenca-no-8m-argentino/" target="_blank">Leia mais</a>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="https://github.com/carol00andrade/portfoliosite/blob/main/static/2.jpg" alt="Caixa quadrada vermelha, com texto título em letra branca dizendo, Encontro de Mulheres da Fenametro organiza lutas feministas da categoria, publicado em 20 de abril de 2023, por Fenametro">
-            <a href="https://www.fenametro.org.br/noticias/encontro-de-mulheres-da-fenametro-organiza-lutas-feministas-da-categoria.html" target="_blank">Leia mais</a>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="https://github.com/carol00andrade/portfoliosite/blob/main/static/3.jpg" alt="Caixa quadrada preta, com texto título em letra branca dizendo, Ferramentas de organização para o trabalho, publicado em 22 de março de 2023, por Salonline">
-            <a href="https://universo.salonline.com.br/ferramentas-de-organizacao-para-o-trabalho/" target="_blank">Leia mais</a>
-        </swiper-slide>
-        <swiper-slide>
-            <img src="https://github.com/carol00andrade/portfoliosite/blob/main/static/4.jpg" alt="Caixa quadrada verde, com texto título em letra branca dizendo, Mercado da cannabis tem perspectiva crescente de investimento, publicado em 6 de maio de 2022, por Sechat">
-            <a href="https://sechat.com.br/noticia/mercado-de-cannabis-tem-perspectiva-crescente-de-investimento" target="_blank">Leia mais</a>
-        </swiper-slide>
-    </swiper-container>
+    </div>           
+    <div class="buttons">
+        <a href="#" class="home-link">Quem sou eu</a>
+        <a href="#" class="home-link-blue">Fale comigo</a>
+    </div>
 </body>
 </html>
