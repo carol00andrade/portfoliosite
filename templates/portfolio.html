@@ -1,121 +1,121 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>   
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Menu Superior</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <style>
-            body {
-                margin: 0;
-                font-family: 'Roboto', sans-serif;
-                background-color: #FFFFFF;
-                overflow: auto;
-            }
-            .navbar {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                background-color: #f0f0f0;
-                padding: 10px 20px;
-            }
-            .navbar ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                display: flex;
-            }
-            .navbar li {
-                margin: 0 10px;
-            }
-            .navbar a {
-                color: #000;
-                text-decoration: none;
-                padding: 8px 16px;
-                display: block;
-                font-weight: bold;
-            }
-            .navbar .menu-left {
-                display: flex;
-            }
-            .navbar .menu-right {
-                margin-left: auto;
-            }
-            .content {
-                padding: 20px;
-                margin-top: 50px;
-                text-align: left;
-                margin-bottom: 30px;
-            }
-            .content h1 {
-                font-size: 36px;
-                font-weight: bold;
-                 text-align: left;
-            }
-            .content p {
-                font-size: 22px;
-            }
-            .highlighted {
-                background-color: #FF8562;
-                border-radius: 5px;
-                padding: 5px;
-                font-size: 20px;
-                font-weight: bold;
-                color: #FFFFFF;
-            }
-            .home-link {
-                background-color: #6c5ce7; 
-                border-radius: 5px;
-                padding: 15px;
-                font-size: 18px;
-                font-weight: bold;
-                color: #FFFFFF;
-                text-decoration: none;
-            }
-            .home-link-blue {
-                background-color: #3498db; 
-                border-radius: 5px;
-                padding: 15px;
-                font-size: 18px;
-                font-weight: bold;
-                color: #FFFFFF;
-                text-decoration: none;            
-            }
-            .left-half {
-                width: 50%;
-                float: left;
-            }
-        </style>
-    </head>
-    <body>
-        <nav class="navbar">
-            <ul class="menu-left">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Social Media</a></li>
-                <li><a href="#">Reportagem</a></li>
-            </ul>
-            <ul class="menu-right">
-                <li>
-                    <div class="highlighted">
-                        <a href="#" style="color: #FFFFFF">Contato</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <div class="content">
-            <h1>Ana Carolina Andrade</h1>
-            <div class="left-half">
-                <p>Olá! Sou <strong>jornalista</strong> e produtora de conteúdo para <strong>mídias digitais</strong>. Já trabalhei na Câmara Municipal de São Paulo, na Prefeitura Municipal de São Paulo, com jornalismo sindical, na cobertura de direitos das mulheres e no BandNews TV. Hoje sou freelancer.</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            </div>
-        </div>           
-        <div class="buttons" style="text-align: left;">
-            <a href="#" class="home-link">Quem sou eu</a>
-            <a href="#" class="home-link-blue">Fale comigo</a>
-        </div>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Superior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #FFFFFF;
+            overflow: auto;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px 20px;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar li {
+            margin: 0 10px;
+        }
+        .navbar a {
+            color: #000;
+            text-decoration: none;
+            padding: 8px 16px;
+            display: block;
+            font-weight: bold;
+        }
+        .navbar .menu-left {
+            display: flex;
+        }
+        .navbar .menu-right {
+            margin-left: auto;
+        }
+        .content {
+            padding: 20px;
+            margin-top: 50px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .content h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .content p {
+            font-size: 22px;
+        }
+        .highlighted {
+            background-color: #FF8562;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .home-link {
+            background-color: #6c5ce7; 
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-right: 10px; 
+        }
+        .home-link-blue {
+            background-color: #3498db; 
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .buttons {
+            text-align: left;
+            margin-top: 20px; 
+            margin-bottom: 40px; 
+        }
+        .buttons a {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu-left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Social Media</a></li>
+            <li><a href="#">Reportagem</a></li>
+        </ul>
+        <ul class="menu-right">
+            <li>
+                <div class="highlighted">
+                    <a href="#" style="color: #FFFFFF">Contato</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Ana Carolina Andrade</h1>
+        <p>Olá! Sou <strong>jornalista</strong> e produtora de conteúdo para <strong>mídias digitais</strong>. Já trabalhei na Câmara Municipal de São Paulo, na Prefeitura Municipal de São Paulo, com jornalismo sindical, na cobertura de direitos das mulheres e no BandNews TV. Hoje sou freelancer.</p>
+    </div>
+    <div class="buttons">
+        <a href="#" class="home-link">Quem sou eu</a>
+        <a href="#" class="home-link-blue">Fale comigo</a>
+    </div>
     </body>
     </html>
 
