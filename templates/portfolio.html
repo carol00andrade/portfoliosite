@@ -111,10 +111,42 @@
             </li>
         </ul>
     </nav>
-    <div class="content">
+     <div class="content">
         <h1>Ana Carolina Andrade</h1>
-        <p>Olá! Sou <strong>jornalista</strong> e produtora de conteúdo para <strong>mídias digitais</strong>. Já trabalhei na Câmara Municipal de São Paulo, na Prefeitura Municipal de São Paulo, com jornalismo sindical, na cobertura de direitos das mulheres e no BandNews TV. Hoje sou freelancer.</p>
+        <p>Olá! Sou <strong>jornalista</strong> e produtora de conteúdo para <strong>mídias digitais</strong>.
+            Já trabalhei na Câmara Municipal de São Paulo, na Prefeitura Municipal de São Paulo, com jornalismo sindical, na cobertura de direitos das mulheres e no BandNews TV. Hoje sou freelancer.
+        </p>
+        <p>
+            Sou uma profissional múltipla e sou
+            <span id="dynamic-text" class="show">Jornalista</span>
+        </p>
     </div>
+
+    <script>
+        const words = [
+            "Jornalista de dados",
+            "Social Media",
+            "Redatora",
+            "Produtora de conteúdo",
+        ];
+
+        let count = 0;
+        const dynamicText = document.getElementById("dynamic-text");
+
+        function showNext() {
+            dynamicText.classList.remove("show");
+            dynamicText.classList.add("hide");
+
+            setTimeout(() => {
+                count = (count + 1) % words.length;
+                dynamicText.textContent = words[count];
+                dynamicText.classList.remove("hide");
+                dynamicText.classList.add("show");
+            }, 500);
+        }
+
+        setInterval(showNext, 2000);
+    </script>
     <div class="buttons">
         <a href="#" class="home-link">Quem sou eu</a>
         <a href="#" class="home-link-blue">Fale comigo</a>
